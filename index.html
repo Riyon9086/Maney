@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Maney - Manage your Money</title>  
+  <!-- === link to file-->
+  <link rel="icon" type="image/svg+xml" href="./src/svg/favicon.svg">
+  <link rel="stylesheet" href="./aset/css/style.css">
+  
+  <!-- === Icon fontawesome-->
+  <script src="https://kit.fontawesome.com/8f1b7a69f3.js" crossorigin="anonymous"></script>
+  
+  <!-- === Import Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+  <div class="header-container">
+  <div class="header-title">Money Chat</div>
+  <button class="header-btn" id="dashboardBtn">
+    <i class="fa-solid fa-chart-line"></i>
+  </button>
+  </div>
+</header>
+  <div class="app">
+    
+    <div class="chat-container" id="chatContainer">
+      <div class="message bot">Halo, catat pengeluaran atau pemasukan lu di sini</div>
+    </div>
+
+<div class="quick-actions">
+  <button id="btnIncome">Total Pendapatan</button>
+  <button id="btnExpense">Jumlah Pengeluaran</button>
+  <button id="btnSaldo">saldo</button>
+</div>
+
+    <div class="input-area">
+      <input type="text" id="chatInput" placeholder="Contoh: beli kopi 2rb...">
+      <button id="sendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+
+  </div>
+
+  <script src="./aset/js/main.js"></script>
+
+</body>
+</html>
